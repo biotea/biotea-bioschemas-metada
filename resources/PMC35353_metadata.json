@@ -1,0 +1,336 @@
+{
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "identifier": "biotea:PMC35353",
+    "isBasedOn": "",
+    "dateCreated": "2019-03-02",
+    "sdPublisher": "http://biotea.github.io",
+    "creator": "http://biotea.github.io/agent/biotea_serializer",
+    "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
+    "version": "201903",
+    "sameAs": [
+      "http://bio2rdf.org/pubmed:11476670",
+      "http://identifiers.org/pubmed/11476670",
+      "http://bio2rdf.org/pubmed:11476670",
+      "http://identifiers.org/pubmed/11476670"
+    ],
+    "mainEntity": {
+      "@id": "https://doi.org/10.1186/1471-2156-2-9",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1186/1471-2156-2-9",
+      "url": "https://doi.org/10.1186/1471-2156-2-9",
+      "alternateName": [
+        "accession:PMC35353",
+        "pmcid:PMC35353",
+        "pmc-uid:35353",
+        "pmid:11476670",
+        "publisher-id:1471-2156-2-9",
+        "pmid:11476670"
+      ],
+      "headline": "A missense mutation (Q279R) in the Fumarylacetoacetate Hydrolase gene, responsible for hereditary tyrosinemia, acts as a splicing mutation",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "datePublished": "2001-6-29",
+      "backstory": "Background: Tyrosinemia type I, the most severe disease of the tyrosine catabolic pathway is caused by a deficiency in fumarylacetoacetate hydrolase (FAH). A patient showing few of the symptoms associated with the disease, was found to be a compound heterozygote for a splice mutation, IVS6-1g-&gt;t, and a putative missense mutation, Q279R. Analysis of FAH expression in liver sections obtained after resection for hepatocellular carcinoma revealed a mosaic pattern of expression. No FAH was found in tumor regions while a healthy region contained enzyme-expressing nodules. Results: Analysis of DNA from a FAH expressing region showed that the expression of the protein was due to correction of the Q279R mutation. RT-PCR was used to assess if Q279R RNA was produced in the liver cells and in fibroblasts from the patient. Normal mRNA was found in the liver region where the mutation had reverted while splicing intermediates were found in non-expressing regions suggesting that the Q279R mutation acted as a splicing mutation. Sequence of transcripts showed skipping of exon 8 alone or together with exon 9. Using minigenes in transfection assays, the Q279R mutation was shown to induce skipping of exon 9 when placed in a constitutive splicing environment. Conclusion: These data suggest that the putative missense mutation Q279R in the FAH gene acts as a splicing mutation. Moreover FAH expression can be partially restored in certain liver cells as a result of a reversion of the Q279R mutation and expansion of the corrected cells. ",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Natacha",
+          "familyName": "Dreumont",
+          "name": "Natacha Dreumont"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Jacques A",
+          "familyName": "Poudrier",
+          "name": "Jacques A Poudrier"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Anne",
+          "familyName": "Bergeron",
+          "name": "Anne Bergeron"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Harvey L",
+          "familyName": "Levy",
+          "name": "Harvey L Levy"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Faouzi",
+          "familyName": "Baklouti",
+          "name": "Faouzi Baklouti"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Robert M",
+          "familyName": "Tanguay",
+          "name": "Robert M Tanguay"
+        }
+      ],
+      "sameAs": [
+        "http://www.biomedcentral.com/1471-2156/2/9",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC35353",
+        "http://info.identifiers.org/pubmed/11476670",
+        "https://www.ncbi.nlm.nih.gov/pubmed/11476670",
+        "http://info.identifiers.org/pubmed/11476670",
+        "https://www.ncbi.nlm.nih.gov/pubmed/11476670"
+      ],
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 2,
+        "isPartOf": {
+          "@type": [
+            "Periodical"
+          ],
+          "issn": "1471-2156",
+          "name": "BMC Genetics",
+          "publisher": {
+            "@type": "Organization",
+            "name": "BioMed Central"
+          }
+        }
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/270706",
+            "https://www.ncbi.nlm.nih.gov/pubmed/270706"
+          ],
+          "alternateName": "pmid:270706"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/2378356",
+            "https://www.ncbi.nlm.nih.gov/pubmed/2378356"
+          ],
+          "alternateName": "pmid:2378356"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/9125148",
+            "https://www.ncbi.nlm.nih.gov/pubmed/9125148"
+          ],
+          "alternateName": "pmid:9125148",
+          "@id": "https://doi.org/10.1006/bbrc.1997.6220",
+          "url": "https://doi.org/10.1006/bbrc.1997.6220",
+          "identifier": "doi:10.1006/bbrc.1997.6220"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/10593876",
+            "https://www.ncbi.nlm.nih.gov/pubmed/10593876"
+          ],
+          "alternateName": "pmid:10593876"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/3952438",
+            "https://www.ncbi.nlm.nih.gov/pubmed/3952438"
+          ],
+          "alternateName": "pmid:3952438"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/7927251",
+            "https://www.ncbi.nlm.nih.gov/pubmed/7927251"
+          ],
+          "alternateName": "pmid:7927251"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.1006/mgme.1998.2695",
+          "url": "https://doi.org/10.1006/mgme.1998.2695",
+          "identifier": "doi:10.1006/mgme.1998.2695"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/1998338",
+            "https://www.ncbi.nlm.nih.gov/pubmed/1998338"
+          ],
+          "alternateName": "pmid:1998338"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/8364576",
+            "https://www.ncbi.nlm.nih.gov/pubmed/8364576"
+          ],
+          "alternateName": "pmid:8364576"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/9101289",
+            "https://www.ncbi.nlm.nih.gov/pubmed/9101289"
+          ],
+          "alternateName": "pmid:9101289",
+          "@id": "https://doi.org/10.1002/(SICI)1098-1004(1997)9:4&lt;291::AID-HUMU1&gt;3.3.CO;2-L",
+          "url": "https://doi.org/10.1002/(SICI)1098-1004(1997)9:4&lt;291::AID-HUMU1&gt;3.3.CO;2-L",
+          "identifier": "doi:10.1002/(SICI)1098-1004(1997)9:4&lt;291::AID-HUMU1&gt;3.3.CO;2-L"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/7977370",
+            "https://www.ncbi.nlm.nih.gov/pubmed/7977370"
+          ],
+          "alternateName": "pmid:7977370"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/10508789",
+            "https://www.ncbi.nlm.nih.gov/pubmed/10508789"
+          ],
+          "alternateName": "pmid:10508789",
+          "@id": "https://doi.org/10.1016/S0969-2126(99)80170-1",
+          "url": "https://doi.org/10.1016/S0969-2126(99)80170-1",
+          "identifier": "doi:10.1016/S0969-2126(99)80170-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/11196105",
+            "https://www.ncbi.nlm.nih.gov/pubmed/11196105"
+          ],
+          "alternateName": "pmid:11196105",
+          "@id": "https://doi.org/10.1023/A:1026756501669",
+          "url": "https://doi.org/10.1023/A:1026756501669",
+          "identifier": "doi:10.1023/A:1026756501669"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/7929843",
+            "https://www.ncbi.nlm.nih.gov/pubmed/7929843"
+          ],
+          "alternateName": "pmid:7929843"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/8557261",
+            "https://www.ncbi.nlm.nih.gov/pubmed/8557261"
+          ],
+          "alternateName": "pmid:8557261"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/8722179",
+            "https://www.ncbi.nlm.nih.gov/pubmed/8722179"
+          ],
+          "alternateName": "pmid:8722179",
+          "@id": "https://doi.org/10.1016/S0959-437X(96)80053-0",
+          "url": "https://doi.org/10.1016/S0959-437X(96)80053-0",
+          "identifier": "doi:10.1016/S0959-437X(96)80053-0"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/8589717",
+            "https://www.ncbi.nlm.nih.gov/pubmed/8589717"
+          ],
+          "alternateName": "pmid:8589717"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/8253377",
+            "https://www.ncbi.nlm.nih.gov/pubmed/8253377"
+          ],
+          "alternateName": "pmid:8253377"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/9095403",
+            "https://www.ncbi.nlm.nih.gov/pubmed/9095403"
+          ],
+          "alternateName": "pmid:9095403"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/8755945",
+            "https://www.ncbi.nlm.nih.gov/pubmed/8755945"
+          ],
+          "alternateName": "pmid:8755945"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/10690409",
+            "https://www.ncbi.nlm.nih.gov/pubmed/10690409"
+          ],
+          "alternateName": "pmid:10690409",
+          "@id": "https://doi.org/10.1146/annurev.genet.33.1.229",
+          "url": "https://doi.org/10.1146/annurev.genet.33.1.229",
+          "identifier": "doi:10.1146/annurev.genet.33.1.229"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/10469842",
+            "https://www.ncbi.nlm.nih.gov/pubmed/10469842"
+          ],
+          "alternateName": "pmid:10469842",
+          "@id": "https://doi.org/10.1093/hmg/8.10.1893",
+          "url": "https://doi.org/10.1093/hmg/8.10.1893",
+          "identifier": "doi:10.1093/hmg/8.10.1893"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/11278491",
+            "https://www.ncbi.nlm.nih.gov/pubmed/11278491"
+          ],
+          "alternateName": "pmid:11278491",
+          "@id": "https://doi.org/10.1074/jbc.M009341200",
+          "url": "https://doi.org/10.1074/jbc.M009341200",
+          "identifier": "doi:10.1074/jbc.M009341200"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/4017276",
+            "https://www.ncbi.nlm.nih.gov/pubmed/4017276"
+          ],
+          "alternateName": "pmid:4017276"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/10073910",
+            "https://www.ncbi.nlm.nih.gov/pubmed/10073910"
+          ],
+          "alternateName": "pmid:10073910",
+          "@id": "https://doi.org/10.1002/(SICI)1097-0223(199901)19:1&lt;61::AID-PD455&gt;3.3.CO;2-R",
+          "url": "https://doi.org/10.1002/(SICI)1097-0223(199901)19:1&lt;61::AID-PD455&gt;3.3.CO;2-R",
+          "identifier": "doi:10.1002/(SICI)1097-0223(199901)19:1&lt;61::AID-PD455&gt;3.3.CO;2-R"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "sameAs": [
+            "http://info.identifiers.org/pubmed/9812176",
+            "https://www.ncbi.nlm.nih.gov/pubmed/9812176"
+          ],
+          "alternateName": "pmid:9812176",
+          "@id": "https://doi.org/10.1016/S0009-9120(98)00066-6",
+          "url": "https://doi.org/10.1016/S0009-9120(98)00066-6",
+          "identifier": "doi:10.1016/S0009-9120(98)00066-6"
+        }
+      ]
+    },
+    "@id": "http://biotea.github.io/bioschemas?id=PMC35353"
+  }

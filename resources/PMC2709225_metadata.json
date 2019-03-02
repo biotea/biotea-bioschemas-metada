@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "identifier": "biotea:PMC2709225",
+    "isBasedOn": "",
+    "dateCreated": "2019-03-02",
+    "sdPublisher": "http://biotea.github.io",
+    "creator": "http://biotea.github.io/agent/biotea_serializer",
+    "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
+    "version": "201903",
+    "sameAs": [
+      "http://bio2rdf.org/pubmed:19561611",
+      "http://identifiers.org/pubmed/19561611",
+      "http://bio2rdf.org/pubmed:19561611",
+      "http://identifiers.org/pubmed/19561611"
+    ],
+    "mainEntity": {
+      "@id": "https://doi.org/10.1038/nsmb.1607",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1038/nsmb.1607",
+      "url": "https://doi.org/10.1038/nsmb.1607",
+      "alternateName": [
+        "accession:PMC2709225",
+        "pmcid:PMC2709225",
+        "pmc-uid:2709225",
+        "pmid:19561611",
+        "pmid:19561611",
+        "manuscript:wtpa4576"
+      ],
+      "headline": "Structural insights into hedgehog ligand sequestration by the human hedgehog-interacting protein HIP",
+      "pageStart": 698,
+      "pageEnd": 703,
+      "datePublished": "2009-6-28",
+      "backstory": "Hedgehog (Hh) morphogens play fundamental roles in development whilst dysregulation of Hh signaling leads to disease. Multiple cell surface receptors are responsible for transducing and/or regulating Hh signals. Among these, the hedgehog-interacting protein (HIP) is a highly conserved, vertebrate-specific, inhibitor of Hh signaling. We have solved a series of crystal structures for the human HIP ectodomain and Desert Hh in isolation, as well as Sonic and Desert Hh-HIP complexes, with and without calcium. The interaction determinants, confirmed by biophysical studies and mutagenesis, reveal novel and distinct functions for Hh zinc- and calcium-binding sites; functions which appear common to all vertebrate Hhs. Zinc makes a key contribution to the Hh-HIP interface while calcium prevents electrostatic repulsion between the two proteins, thus playing a major modulatory role. This interplay of several metal-binding sites suggests a tuneable mechanism for regulation of Hh signaling. ",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Benjamin",
+          "familyName": "Bishop",
+          "name": "Benjamin Bishop"
+        },
+        {
+          "@type": "Person",
+          "givenName": "A. Radu",
+          "familyName": "Aricescu",
+          "name": "A. Radu Aricescu"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Karl",
+          "familyName": "Harlos",
+          "name": "Karl Harlos"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Chris A.",
+          "familyName": "O’Callaghan",
+          "name": "Chris A. O’Callaghan"
+        },
+        {
+          "@type": "Person",
+          "givenName": "E. Yvonne",
+          "familyName": "Jones",
+          "name": "E. Yvonne Jones"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Christian",
+          "familyName": "Siebold",
+          "name": "Christian Siebold"
+        }
+      ],
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2709225",
+        "http://info.identifiers.org/pubmed/19561611",
+        "http://info.identifiers.org/pubmed/19561611"
+      ],
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "issueNumber": 7,
+        "isPartOf": {
+          "@type": "PublicationVolume",
+          "volumeNumber": 16,
+          "isPartOf": {
+            "@type": [
+              "Periodical"
+            ],
+            "issn": [
+              "1545-9993",
+              "1545-9985"
+            ],
+            "name": "Nature structural &amp; molecular biology"
+          }
+        }
+      }
+    },
+    "@id": "http://biotea.github.io/bioschemas?id=PMC2709225"
+  }

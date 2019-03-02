@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>bioschemas-uniprot-adapter-demo</title>
+
+</head>
+<body>
+<biotea-bioschemas-metadata publisher="http://biotea.github.io" version="201903" metadataid="http://biotea.github.io/bioschemas?id={0}">
+
+<script src="../dist/BioteaBioschemasMetadata.js" charset="utf-8" defer></script>
+
+
+<script>
+    window.onload = () => {
+        const url = new URL(window.location.href);
+        const articleId = url.searchParams.get('pmc');
+        if (articleId) {
+            const component = document.getElementsByTagName('biotea-bioschemas-metadata')[0];
+            component.queryurl = '../resources/PMC' + articleId + '.nxml';
+        }
+        for (const el of document.querySelectorAll('biotea-bioschemas-metadata')) {
+          el.addEventListener(
+            'load',
+            e => {
+              console.log('Data loaded');
+              console.log(e.detail);
+            }
+          );
+          el.addEventListener(
+            'ready',
+            e => {
+              console.log('ready');
+              console.log(e.detail);
+            }
+          );
+        }
+    }     
+</script>
+
+</body>
+</html>

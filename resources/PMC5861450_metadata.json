@@ -1,0 +1,70 @@
+{
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "identifier": "biotea:PMC5861450",
+    "isBasedOn": "",
+    "dateCreated": "2019-03-02",
+    "sdPublisher": "http://biotea.github.io",
+    "creator": "http://biotea.github.io/agent/biotea_serializer",
+    "sdLicense": "https://creativecommons.org/licenses/by/4.0/",
+    "version": "201903",
+    "sameAs": [
+      "http://bio2rdf.org/pubmed:29425356",
+      "http://identifiers.org/pubmed/29425356"
+    ],
+    "mainEntity": {
+      "@id": "https://doi.org/10.1093/nar/gky092",
+      "@type": "ScholarlyArticle",
+      "identifier": "doi:10.1093/nar/gky092",
+      "url": "https://doi.org/10.1093/nar/gky092",
+      "alternateName": [
+        "accession:PMC5861450",
+        "pmcid:PMC5861450",
+        "pmc-uid:5861450",
+        "pmid:29425356",
+        "publisher-id:gky092"
+      ],
+      "headline": "UniProt: the universal protein knowledgebase",
+      "pageStart": 2699,
+      "pageEnd": 2699,
+      "datePublished": "2018-2-7",
+      "backstory": "",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "The",
+          "familyName": "UniProt Consortium",
+          "name": "The UniProt Consortium"
+        }
+      ],
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861450",
+        "http://info.identifiers.org/pubmed/29425356",
+        "https://www.ncbi.nlm.nih.gov/pubmed/29425356"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "issueNumber": 5,
+        "isPartOf": {
+          "@type": "PublicationVolume",
+          "volumeNumber": 46,
+          "isPartOf": {
+            "@type": [
+              "Periodical"
+            ],
+            "issn": [
+              "0305-1048",
+              "1362-4962"
+            ],
+            "name": "Nucleic Acids Research",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Oxford University Press"
+            }
+          }
+        }
+      }
+    },
+    "@id": "http://biotea.github.io/bioschemas?id=PMC5861450"
+  }

@@ -1,0 +1,265 @@
+{
+  "OAI-PMH": {
+    "@_xmlns": "http://www.openarchives.org/OAI/2.0/",
+    "@_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@_xsi:schemaLocation": "http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd",
+    "responseDate": "2019-03-02T16:09:10Z",
+    "request": {
+      "#text": "https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi",
+      "@_verb": "GetRecord",
+      "@_identifier": "oai:pubmedcentral.nih.gov:2709225",
+      "@_metadataPrefix": "pmc_fm"
+    },
+    "GetRecord": {
+      "record": {
+        "header": {
+          "identifier": "oai:pubmedcentral.nih.gov:2709225",
+          "datestamp": "2010-01-01",
+          "setSpec": [
+            "wtpa",
+            "pmc-open",
+            "manuscript"
+          ]
+        },
+        "metadata": {
+          "article": {
+            "@_xmlns": "https://jats.nlm.nih.gov/ns/archiving/1.0/",
+            "@_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@_xmlns:mml": "http://www.w3.org/1998/Math/MathML",
+            "@_xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "@_xsi:schemaLocation": "https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd",
+            "@_article-type": "research-article",
+            "front": {
+              "journal-meta": {
+                "journal-id": [
+                  {
+                    "#text": 101186374,
+                    "@_journal-id-type": "nlm-journal-id"
+                  },
+                  {
+                    "#text": 31761,
+                    "@_journal-id-type": "pubmed-jr-id"
+                  },
+                  {
+                    "#text": "Nat Struct Mol Biol",
+                    "@_journal-id-type": "nlm-ta"
+                  },
+                  {
+                    "#text": "Nat. Struct. Mol. Biol.",
+                    "@_journal-id-type": "iso-abbrev"
+                  }
+                ],
+                "journal-title-group": {
+                  "journal-title": "Nature structural &amp; molecular biology"
+                },
+                "issn": [
+                  {
+                    "#text": "1545-9993",
+                    "@_pub-type": "ppub"
+                  },
+                  {
+                    "#text": "1545-9985",
+                    "@_pub-type": "epub"
+                  }
+                ]
+              },
+              "article-meta": {
+                "article-id": [
+                  {
+                    "#text": "PMC2709225",
+                    "@_pub-id-type": "accession"
+                  },
+                  {
+                    "#text": "PMC2709225",
+                    "@_pub-id-type": "pmcid"
+                  },
+                  {
+                    "#text": 2709225,
+                    "@_pub-id-type": "pmc-uid"
+                  },
+                  {
+                    "#text": 19561611,
+                    "@_pub-id-type": "pmid"
+                  },
+                  {
+                    "#text": 19561611,
+                    "@_pub-id-type": "pmid"
+                  },
+                  {
+                    "#text": "10.1038/nsmb.1607",
+                    "@_pub-id-type": "doi"
+                  },
+                  {
+                    "#text": "wtpa4576",
+                    "@_pub-id-type": "manuscript"
+                  }
+                ],
+                "article-categories": {
+                  "subj-group": {
+                    "@_subj-group-type": "heading",
+                    "subject": "Article"
+                  }
+                },
+                "title-group": {
+                  "article-title": "Structural insights into hedgehog ligand sequestration by the human hedgehog-interacting protein HIP"
+                },
+                "contrib-group": {
+                  "contrib": [
+                    {
+                      "@_contrib-type": "author",
+                      "name": {
+                        "surname": "Bishop",
+                        "given-names": "Benjamin"
+                      },
+                      "xref": {
+                        "#text": 1,
+                        "@_ref-type": "aff",
+                        "@_rid": "A1"
+                      }
+                    },
+                    {
+                      "@_contrib-type": "author",
+                      "name": {
+                        "surname": "Aricescu",
+                        "given-names": "A. Radu"
+                      },
+                      "xref": {
+                        "#text": 1,
+                        "@_ref-type": "aff",
+                        "@_rid": "A1"
+                      }
+                    },
+                    {
+                      "@_contrib-type": "author",
+                      "name": {
+                        "surname": "Harlos",
+                        "given-names": "Karl"
+                      },
+                      "xref": {
+                        "#text": 1,
+                        "@_ref-type": "aff",
+                        "@_rid": "A1"
+                      }
+                    },
+                    {
+                      "@_contrib-type": "author",
+                      "name": {
+                        "surname": "O’Callaghan",
+                        "given-names": "Chris A."
+                      },
+                      "xref": {
+                        "#text": 2,
+                        "@_ref-type": "aff",
+                        "@_rid": "A2"
+                      }
+                    },
+                    {
+                      "@_contrib-type": "author",
+                      "name": {
+                        "surname": "Jones",
+                        "given-names": "E. Yvonne"
+                      },
+                      "xref": {
+                        "#text": 1,
+                        "@_ref-type": "aff",
+                        "@_rid": "A1"
+                      }
+                    },
+                    {
+                      "@_contrib-type": "author",
+                      "name": {
+                        "surname": "Siebold",
+                        "given-names": "Christian"
+                      },
+                      "xref": {
+                        "#text": 1,
+                        "@_ref-type": "aff",
+                        "@_rid": "A1"
+                      }
+                    }
+                  ]
+                },
+                "aff": [
+                  {
+                    "#text": "Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, United Kingdom.",
+                    "@_id": "A1",
+                    "label": 1
+                  },
+                  {
+                    "#text": "Henry Wellcome Building for Molecular Physiology, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, United Kingdom.",
+                    "@_id": "A2",
+                    "label": 2
+                  }
+                ],
+                "author-notes": {
+                  "corresp": {
+                    "#text": "Correspondence should be addressed to C.S. ().",
+                    "@_id": "CR1",
+                    "email": "christian@strubi.ox.ac.uk"
+                  },
+                  "fn": {
+                    "@_id": "FN2",
+                    "p": [
+                      {
+                        "#text": "AUTHORS CONTRIBUTION",
+                        "@_id": "P1"
+                      },
+                      {
+                        "#text": "C.S. designed the project. B.B. and C.S. produced the constructs and crystallized the proteins. B.B. and C.A.O’C. performed the SPR experiments. K.H. and C.S. collected X-ray data and C.S. solved the structures. B.B, A.R.A., C.A.O’C., E.Y.J. and C.S. analysed the data and wrote the paper.",
+                        "@_id": "P2"
+                      }
+                    ]
+                  }
+                },
+                "pub-date": [
+                  {
+                    "@_pub-type": "nihms-submitted",
+                    "day": 29,
+                    "month": 4,
+                    "year": 2009
+                  },
+                  {
+                    "@_pub-type": "epub",
+                    "day": 28,
+                    "month": 6,
+                    "year": 2009
+                  },
+                  {
+                    "@_pub-type": "ppub",
+                    "month": 7,
+                    "year": 2009
+                  },
+                  {
+                    "@_pub-type": "pmc-release",
+                    "day": 1,
+                    "month": 1,
+                    "year": 2010
+                  }
+                ],
+                "volume": 16,
+                "issue": 7,
+                "fpage": 698,
+                "lpage": 703,
+                "abstract": {
+                  "p": {
+                    "#text": "Hedgehog (Hh) morphogens play fundamental roles in development whilst dysregulation of Hh signaling leads to disease. Multiple cell surface receptors are responsible for transducing and/or regulating Hh signals. Among these, the hedgehog-interacting protein (HIP) is a highly conserved, vertebrate-specific, inhibitor of Hh signaling. We have solved a series of crystal structures for the human HIP ectodomain and Desert Hh in isolation, as well as Sonic and Desert Hh-HIP complexes, with and without calcium. The interaction determinants, confirmed by biophysical studies and mutagenesis, reveal novel and distinct functions for Hh zinc- and calcium-binding sites; functions which appear common to all vertebrate Hhs. Zinc makes a key contribution to the Hh-HIP interface while calcium prevents electrostatic repulsion between the two proteins, thus playing a major modulatory role. This interplay of several metal-binding sites suggests a tuneable mechanism for regulation of Hh signaling.",
+                    "@_id": "P3"
+                  }
+                },
+                "funding-group": {
+                  "award-group": {
+                    "funding-source": {
+                      "#text": "Wellcome Trust :",
+                      "@_country": "United Kingdom"
+                    },
+                    "award-id": "082301 || WT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

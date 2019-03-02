@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2019-03-02T16:09:10Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2709225" metadataPrefix="pmc_fm">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:2709225</identifier>
+        <datestamp>2010-01-01</datestamp>
+        <setSpec>wtpa</setSpec>
+        <setSpec>pmc-open</setSpec>
+        <setSpec>manuscript</setSpec>
+      </header>
+      <metadata>
+        <article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-journal-id">101186374</journal-id>
+              <journal-id journal-id-type="pubmed-jr-id">31761</journal-id>
+              <journal-id journal-id-type="nlm-ta">Nat Struct Mol Biol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Nat. Struct. Mol. Biol.</journal-id>
+              <journal-title-group>
+                <journal-title>Nature structural &amp; molecular biology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1545-9993</issn>
+              <issn pub-type="epub">1545-9985</issn>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC2709225</article-id>
+              <article-id pub-id-type="pmcid">PMC2709225</article-id>
+              <article-id pub-id-type="pmc-uid">2709225</article-id>
+              <article-id pub-id-type="pmid">19561611</article-id>
+              <article-id pub-id-type="pmid">19561611</article-id>
+              <article-id pub-id-type="doi">10.1038/nsmb.1607</article-id>
+              <article-id pub-id-type="manuscript">wtpa4576</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Structural insights into hedgehog ligand sequestration by the human hedgehog-interacting protein HIP</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bishop</surname>
+                    <given-names>Benjamin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Aricescu</surname>
+                    <given-names>A. Radu</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Harlos</surname>
+                    <given-names>Karl</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>O’Callaghan</surname>
+                    <given-names>Chris A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>E. Yvonne</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Siebold</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="A1"><label>1</label>Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, United Kingdom.
+        </aff>
+              <aff id="A2"><label>2</label>Henry Wellcome Building for Molecular Physiology, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, United Kingdom.
+        </aff>
+              <author-notes>
+                <corresp id="CR1">Correspondence should be addressed to C.S. (<email>christian@strubi.ox.ac.uk</email>).</corresp>
+                <fn id="FN2">
+                  <p id="P1">AUTHORS CONTRIBUTION</p>
+                  <p id="P2">C.S. designed the project. B.B. and C.S. produced the constructs and crystallized the proteins. B.B. and C.A.O’C. performed the SPR experiments. K.H. and C.S. collected X-ray data and C.S. solved the structures. B.B, A.R.A., C.A.O’C., E.Y.J. and C.S. analysed the data and wrote the paper.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="nihms-submitted">
+                <day>29</day>
+                <month>4</month>
+                <year>2009</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>6</month>
+                <year>2009</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>7</month>
+                <year>2009</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>01</day>
+                <month>1</month>
+                <year>2010</year>
+              </pub-date>
+              <volume>16</volume>
+              <issue>7</issue>
+              <fpage>698</fpage>
+              <lpage>703</lpage>
+              <abstract>
+                <p id="P3">Hedgehog (Hh) morphogens play fundamental roles in development whilst dysregulation of Hh signaling leads to disease. Multiple cell surface receptors are responsible for transducing and/or regulating Hh signals. Among these, the hedgehog-interacting protein (HIP) is a highly conserved, vertebrate-specific, inhibitor of Hh signaling. We have solved a series of crystal structures for the human HIP ectodomain and Desert Hh in isolation, as well as Sonic and Desert Hh-HIP complexes, with and without calcium. The interaction determinants, confirmed by biophysical studies and mutagenesis, reveal novel and distinct functions for Hh zinc- and calcium-binding sites; functions which appear common to all vertebrate Hhs. Zinc makes a key contribution to the Hh-HIP interface while calcium prevents electrostatic repulsion between the two proteins, thus playing a major modulatory role. This interplay of several metal-binding sites suggests a tuneable mechanism for regulation of Hh signaling.</p>
+              </abstract>
+              <funding-group>
+                <award-group>
+                  <funding-source country="United Kingdom">Wellcome Trust : </funding-source>
+                  <award-id>082301 || WT</award-id>
+                </award-group>
+              </funding-group>
+            </article-meta>
+          </front>
+        </article>
+
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
