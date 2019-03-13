@@ -92,7 +92,7 @@ class BioteaBioschemasMetadata extends HTMLElement  {
             } catch (err2) {
                 console.log('Parsing error', err2);
             }     
-            
+            //only abstract is parsed now
             /*let para = converted.article.body.p;
             this._bodyText = '';
             if (para) {
@@ -101,7 +101,18 @@ class BioteaBioschemasMetadata extends HTMLElement  {
                 });
             }
             this._parseSections(converted.article.body.sec);*/
-            this._renderData();
+            if (this.render != null) {
+                this._renderData();
+            }
+            this.dispatchEvent(new CustomEvent(
+                'ready', {
+                    detail: {
+                        data: this._convertedData
+                    },
+                    bubbles: true,
+                    cancelable: true
+                }
+            ));
         }
     }
 
@@ -308,16 +319,7 @@ class BioteaBioschemasMetadata extends HTMLElement  {
         const s = document.createElement('script');
         s.type = 'application/ld+json';
         s.innerHTML = JSON.stringify(this._convertedData, null, 2);
-        document.body.appendChild(s);
-        this.dispatchEvent(new CustomEvent(
-            'ready', {
-                detail: {
-                    data: this._convertedData
-                },
-                bubbles: true,
-                cancelable: true
-            }
-        ));
+        document.body.appendChild(s);        
     }    
 }
 
