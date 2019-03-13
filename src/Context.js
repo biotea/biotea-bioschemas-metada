@@ -35,7 +35,7 @@ export const volJournal = {
     "@type": "PublicationVolume",
     "volumeNumber": "",
     "isPartOf": {
-        "@type": ["Periodical"],
+        "@type": "Periodical",
         "issn": [],
         "name": "",
         "publisher": {
