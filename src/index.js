@@ -171,7 +171,7 @@ class BioteaBioschemasMetadata extends HTMLElement  {
                 if (this.metadataid) {
                     this._convertedData["@id"] = this.metadataid.replace('{0}', el["#text"]);
                 }
-            } else if (el["@_pub-id-type"] === 'pmc-ui') {                
+            } else if (el["@_pub-id-type"] === 'pmc-uid') {                
                 this._convertedData.isBasedOn = 'https://www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:' + el["#text"] + '&metadataPrefix=pmc_fm';
                 this._convertedData.mainEntity.alternateName.push(el["@_pub-id-type"] + ':' + el["#text"]);
             } else if (el["@_pub-id-type"] === 'pmid') {

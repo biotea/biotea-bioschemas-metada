@@ -1,7 +1,7 @@
 {
   "name": "biotea-bioschemas-metadata",
   "version": "0.0.1",
-  "description": "Generator of PMC article metadata following Bioschemas profiles",
+  "description": "Generator of PMC article metadata following Bioschemas draft profiles for scholarly publications",
   "main": "dist/BioteaBioschemasMetadata.js",
   "module": "src/index.js",
   "jsnext:main": "src/index.js",
