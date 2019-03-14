@@ -12,14 +12,12 @@ class BioteaBioschemasMetadata extends HTMLElement  {
         this._data = undefined;
     }
 
-    static get observedAttributes() { return ["queryurl", "publisher", "version", "metadataid", "loading"]; }
-
-    get loading() {
-        return (this.getAttribute("loading"));
+    static get observedAttributes() { 
+        return ["render", "publisher", "version", "metadataid", "loading", "queryurl"]; 
     }
 
-    get queryurl() {
-        return (this.getAttribute("queryurl"));
+    get render() {
+        return (this.getAttribute("render"));
     }
 
     get publisher() {
@@ -32,6 +30,30 @@ class BioteaBioschemasMetadata extends HTMLElement  {
 
     get metadataid() {
         return (this.getAttribute("metadataid"));
+    }
+
+    get loading() {
+        return (this.getAttribute("loading"));
+    }
+
+    get queryurl() {
+        return (this.getAttribute("queryurl"));
+    }
+
+    set render(value) {
+        this.setAttribute("render", value);
+    }
+
+    set publisher(value) {
+        this.setAttribute("publisher", value);
+    }
+
+    set version(value) {
+        this.setAttribute("version", value);
+    }
+
+    set metadataid(value) {
+        this.setAttribute("loametadataidding", value);
     }
 
     set loading(value) {
